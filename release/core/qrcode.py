@@ -130,10 +130,3 @@ def generate_qr_ascii(data, return_string=False):
         return qr_str
     else:
         print(qr_str)
-
-# --------------------
-# Example
-# --------------------
-if __name__ == "__main__":
-    qr_as_string = generate_qr_ascii("Hello Phone!", return_string=True)
-    print(qr_as_string)
